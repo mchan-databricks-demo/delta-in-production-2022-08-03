@@ -1,5 +1,10 @@
 # Databricks notebook source
 # MAGIC %md
+# MAGIC # INGESTION
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC ## Step 0: Setup the environment
 
 # COMMAND ----------

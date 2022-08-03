@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC # TRANSFORMATION
+
+# COMMAND ----------
+
 dbutils.widgets.text("environmentWidget","","Select Environment: ")
 environmentVariable = dbutils.widgets.get("environmentWidget")
 print(environmentVariable)
@@ -13,7 +18,7 @@ print(environmentVariable)
 df = (
   spark.table(f"{environmentVariable}_acme_inc_db.01_bronze_orders")
 )
-display(df)
+display(df
 
 # COMMAND ----------
 
